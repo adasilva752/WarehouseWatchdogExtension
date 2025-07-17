@@ -1,6 +1,7 @@
 // import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+import costcoLogo from './assets/costco128.png'
 import './App.css'
 
 function App() {
@@ -18,14 +19,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://costco.com" target="_blank">
+          <img src={costcoLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        {/* <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        </a> */}
       </div>
-      <h1>Vite + React</h1>
+      <h1>Warehouse Watchdog</h1>
       <div className="card">
         <button onClick={() => onclick()}>
           Click Me!
@@ -35,7 +36,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the Costco logo to take you to the costco homepage.
       </p>
     </>
   )
