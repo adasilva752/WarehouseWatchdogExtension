@@ -1,0 +1,20 @@
+{
+    "name": "Warehouse Watchdog",
+    "description": "Help you save by keeping track of Costco price drops on recent purchases",
+    "version": "0.1.0",
+    "icons": {
+        "128": "icons/costcoextension128.png"
+    },
+    "permissions": ["storage", "tabs", "notifications"],
+    "host_permissions": ["https://*.costco.com/*"],
+    "action": {
+        "default_icon": {
+            "16": "icons/costcoextension128.png",
+            "24": "icons/costcoextension128.png",
+            "32": "icons/costcoextension128.png"
+        },
+        "default_title": "Warehouse Watchdog",
+        "default_popup": "popup/popup.html"
+    },
+    "manifest_version": 3
+}
