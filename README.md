@@ -1,2 +1,2 @@
-# CostcoReceiptExtension
-We are building an extensions for Costco receipts so that users can save money on their monthly groceries.
+# Warehouse Watchdog Extension
+We are building an extensions for items in stock to check for pricing changes.
