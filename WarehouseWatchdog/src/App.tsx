@@ -1,4 +1,4 @@
-import costcoLogo from './assets/costco128.png'
+import watchdogLogo from '../public/icons/watchdog.png'
 import './App.css'
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://costco.com" target="_blank">
-          <img src={costcoLogo} className="logo" alt="Vite logo" />
+        <a href="https://amazon.com" target="_blank">
+          <img src={watchdogLogo} className="logo" alt="Vite logo" />
         </a>
       </div>
       <h1>Warehouse Watchdog</h1>
@@ -30,7 +30,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Costco logo to take you to the costco homepage.
+        Click on the Watchdog logo to take you to the Amazon homepage.
       </p>
     </>
   )

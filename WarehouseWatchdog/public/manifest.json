@@ -3,15 +3,15 @@
     "description": "Help you save by keeping track of Amazon price drops on recently viewed items",
     "version": "0.1.0",
     "icons": {
-        "128": "icons/costco128.png"
+        "128": "icons/watchdog.png"
     },
     "permissions": ["storage", "tabs", "notifications", "scripting"],
     "host_permissions": ["<all_urls>", "https://*.amazon.com/*"],
     "action": {
         "default_icon": {
-            "16": "icons/costco128.png",
-            "24": "icons/costco128.png",
-            "32": "icons/costco128.png"
+            "16": "icons/watchdog.png",
+            "24": "icons/watchdog.png",
+            "32": "icons/watchdog.png"
         },
         "default_title": "Warehouse Watchdog",
         "default_popup": "index.html"
